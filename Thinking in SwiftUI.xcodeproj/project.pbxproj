@@ -15,6 +15,7 @@
 		0D62FDC02B6774C5009A3CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62FDBF2B6774C5009A3CA0 /* Assets.xcassets */; };
 		0D62FDC32B6774C5009A3CA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62FDC22B6774C5009A3CA0 /* Preview Assets.xcassets */; };
 		0DDC1E3D2B7B4319005C0F76 /* ObservableMacro.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */; };
+		0DDC1E482B7C87E2005C0F76 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC1E472B7C87E2005C0F76 /* ObservableObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		0D62FDBF2B6774C5009A3CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D62FDC22B6774C5009A3CA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacro.1.swift; sourceTree = "<group>"; };
+		0DDC1E472B7C87E2005C0F76 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,8 @@
 		0D5387632B789EB300FD5955 /* Chapter 3. State and Binding */ = {
 			isa = PBXGroup;
 			children = (
+				0DDC1E462B7C87CF005C0F76 /* ObservableObject */,
+				0DDC1E452B7C87BE005C0F76 /* StateObject */,
 				0DDC1E3B2B7B4302005C0F76 /* Observable Macro */,
 				0D53876B2B78BC1700FD5955 /* @State */,
 			);
@@ -109,6 +113,21 @@
 				0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */,
 			);
 			path = "Observable Macro";
+			sourceTree = "<group>";
+		};
+		0DDC1E452B7C87BE005C0F76 /* StateObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StateObject;
+			sourceTree = "<group>";
+		};
+		0DDC1E462B7C87CF005C0F76 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC1E472B7C87E2005C0F76 /* ObservableObject.swift */,
+			);
+			path = ObservableObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +204,7 @@
 				0D62FDBE2B6774C3009A3CA0 /* ContentView.swift in Sources */,
 				0D62FDBC2B6774C3009A3CA0 /* Thinking_in_SwiftUIApp.swift in Sources */,
 				0D53876A2B78B68900FD5955 /* Counter.Init_value.swift in Sources */,
+				0DDC1E482B7C87E2005C0F76 /* ObservableObject.swift in Sources */,
 				0DDC1E3D2B7B4319005C0F76 /* ObservableMacro.1.swift in Sources */,
 				0D5387652B789EDC00FD5955 /* Counter.swift in Sources */,
 			);
