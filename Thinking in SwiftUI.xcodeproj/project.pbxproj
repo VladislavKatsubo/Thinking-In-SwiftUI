@@ -14,6 +14,7 @@
 		0D62FDBE2B6774C3009A3CA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D62FDBD2B6774C3009A3CA0 /* ContentView.swift */; };
 		0D62FDC02B6774C5009A3CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62FDBF2B6774C5009A3CA0 /* Assets.xcassets */; };
 		0D62FDC32B6774C5009A3CA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D62FDC22B6774C5009A3CA0 /* Preview Assets.xcassets */; };
+		0DDC1E3D2B7B4319005C0F76 /* ObservableMacro.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0D62FDBD2B6774C3009A3CA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D62FDBF2B6774C5009A3CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D62FDC22B6774C5009A3CA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacro.1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,14 +47,23 @@
 			path = "2. View Tree and Render Tree";
 			sourceTree = "<group>";
 		};
-		0D5387632B789EB300FD5955 /* 3. State and Binding */ = {
+		0D5387632B789EB300FD5955 /* Chapter 3. State and Binding */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC1E3B2B7B4302005C0F76 /* Observable Macro */,
+				0D53876B2B78BC1700FD5955 /* @State */,
+			);
+			path = "Chapter 3. State and Binding";
+			sourceTree = "<group>";
+		};
+		0D53876B2B78BC1700FD5955 /* @State */ = {
 			isa = PBXGroup;
 			children = (
 				0D5387642B789EDC00FD5955 /* Counter.swift */,
 				0D5387662B78A30400FD5955 /* Counter without @State.swift */,
 				0D5387692B78B68900FD5955 /* Counter.Init_value.swift */,
 			);
-			path = "3. State and Binding";
+			path = "@State";
 			sourceTree = "<group>";
 		};
 		0D62FDAF2B6774C3009A3CA0 = {
@@ -74,7 +85,7 @@
 		0D62FDBA2B6774C3009A3CA0 /* Thinking in SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				0D5387632B789EB300FD5955 /* 3. State and Binding */,
+				0D5387632B789EB300FD5955 /* Chapter 3. State and Binding */,
 				0D5387622B789EA500FD5955 /* 2. View Tree and Render Tree */,
 				0D62FDBB2B6774C3009A3CA0 /* Thinking_in_SwiftUIApp.swift */,
 				0D62FDBD2B6774C3009A3CA0 /* ContentView.swift */,
@@ -90,6 +101,14 @@
 				0D62FDC22B6774C5009A3CA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DDC1E3B2B7B4302005C0F76 /* Observable Macro */ = {
+			isa = PBXGroup;
+			children = (
+				0DDC1E3C2B7B4319005C0F76 /* ObservableMacro.1.swift */,
+			);
+			path = "Observable Macro";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +185,7 @@
 				0D62FDBE2B6774C3009A3CA0 /* ContentView.swift in Sources */,
 				0D62FDBC2B6774C3009A3CA0 /* Thinking_in_SwiftUIApp.swift in Sources */,
 				0D53876A2B78B68900FD5955 /* Counter.Init_value.swift in Sources */,
+				0DDC1E3D2B7B4319005C0F76 /* ObservableMacro.1.swift in Sources */,
 				0D5387652B789EDC00FD5955 /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
