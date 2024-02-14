@@ -40,11 +40,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D5387622B789EA500FD5955 /* 2. View Tree and Render Tree */ = {
+		0D5387622B789EA500FD5955 /* Chapter 2. View Tree and Render Tree */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "2. View Tree and Render Tree";
+			path = "Chapter 2. View Tree and Render Tree";
 			sourceTree = "<group>";
 		};
 		0D5387632B789EB300FD5955 /* Chapter 3. State and Binding */ = {
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0D5387632B789EB300FD5955 /* Chapter 3. State and Binding */,
-				0D5387622B789EA500FD5955 /* 2. View Tree and Render Tree */,
+				0D5387622B789EA500FD5955 /* Chapter 2. View Tree and Render Tree */,
 				0D62FDBB2B6774C3009A3CA0 /* Thinking_in_SwiftUIApp.swift */,
 				0D62FDBD2B6774C3009A3CA0 /* ContentView.swift */,
 				0D62FDBF2B6774C5009A3CA0 /* Assets.xcassets */,
